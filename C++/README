@@ -1,4 +1,4 @@
 C++ Code Snippet Collection
 ---------------------------
 
-All of the files should whenever possible be self-contained.
+All of the files are self-contained. Only exceptions are programs located in their own folder, in which case all code in the folder is self-contained.
