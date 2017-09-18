@@ -200,7 +200,8 @@ GF256& GF256::operator*=(const GF256& other)
 
 GF256& GF256::operator/=(const GF256& other)
 {
-	return *this * other.inverse();
+	*this *= other.inverse();
+	return *this;
 }
 
 
