@@ -32,5 +32,5 @@ inline constexpr double trailing(double d)
 template<typename T>
 inline constexpr T lerp(T d1, T d2, double fac)
 {
-	return fac * d2 + (1.0 - fac) * d1;
+	return d1 + fac * (d2 - d1);
 }
